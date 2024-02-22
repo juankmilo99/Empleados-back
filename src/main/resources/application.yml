@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      database: empleado_db
+      uri: mongodb+srv://juankmilo9902:6YJTVnmaOuq6O2Wy@cluster0.2o8fozq.mongodb.net/empleado_db?retryWrites=true&w=majority
+
+server:
+  servlet:
+    context-path : /api/v1
